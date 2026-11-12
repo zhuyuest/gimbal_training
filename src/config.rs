@@ -44,3 +44,4 @@ pub const CONFIG: RigConfig = RigConfig {
     oscillation_amplitude_rad: 0.02,  // 确认反向转折所需的最小角度回摆量，单位 rad
     oscillation_hz: 8.0,
     oscillation_ticks: 1000, // 持续超频时间阈值；1000 个控制周期约为 1 s
+}；
